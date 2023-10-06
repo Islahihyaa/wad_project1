@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 5%;
+
+}
+
+h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 30px;
+    background-color: #006600; /* Warna latar belakang */
+    padding: 10px 20px; /* Padding di sekitar teks */
+    border-radius: 5px; /* Sudut bulat pada latar belakang */
+    display: inline-block;
+}
+.profile {
+    background-color: #009900;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.profile img {
+    border-radius: 50%; /* Membuat gambar profil menjadi lingkaran */
+    width: 250px;
+    height: 250px;
+    margin: 10px auto;
+    display: block;
+}
+
+.profile h1 {
+    font-size: 37px;
+    color: #fff;
+}
+
+.profile p {
+    font-size: 20px;
+    color: #000;
+}
+
+.imageProfile {
+    text-align: center;
+    width: 50%;
+}
+
+.imageContact {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imageContact img {
+    width: 25px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    vertical-align: middle;
+}
+
+.imageContact p {
+    font-size: 22px;
+    color: #333;
+    margin: 5px 0;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+
+.aboutMe {
+    text-align: justify;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table table, .table th, .table td {
+    border: 1px solid #ccc;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    color: #333;
+}
+
+.table td b {
+    font-size: 18px;
+    color: #333;
+}
+
+.table td:last-child {
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+}
+
+.skills, .interests {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the Social Media section */
+
+/* Style for the Social Media section header */
+.socialMedia h2 {
+    font-size: 24px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #005500; /* Warna latar belakang */
+    display: inline-block;
+}
+
+/* Style for the social media links */
+.socialMedia ul {
+    list-style: none;
+    padding: 0;
+}
+
+.socialMedia li {
+    margin-top: 10px;
+}
+
+.socialMedia a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.socialMedia a:hover {
+    color: #00cc00; /* Warna saat tautan dihover */
+}
